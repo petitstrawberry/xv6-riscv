@@ -14,7 +14,7 @@ RUN apt update && \
 
 # Install RISC-V Toolchain
 RUN apt update && \
-	apt install gcc-riscv64-unknown-elf
+	apt install -y gcc-riscv64-unknown-elf
 
 # Build QEMU
 RUN apt update && \
